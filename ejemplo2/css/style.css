@@ -1,0 +1,38 @@
+.box {
+    /*background-color: aqua;*/
+    display: flex;
+    flex-direction: column;/*row,row-reverse, column,column-reverse
+    /*flex-wrap: wrap ;*/
+    /*flex-flow: row-reverse wrap;
+    /*align-items: center ;*/
+    /*justify-content: space-evenly;*/
+  }
+
+.box div{
+    background-color: aliceblue;
+    width: 50vh;
+    border: 2px solid black;
+  }
+ 
+  
+  .box div img{
+    width: 50%;
+  }
+
+  main{
+    height: 50vh;
+    
+  } 
+
+  .izquierda{
+    flex: 1 1 auto;
+  }
+
+  .centro {
+    flex: 1 1 auto;
+  }
+
+  .derecha {
+    flex: 1 1 auto;
+  }
+  
